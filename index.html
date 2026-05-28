@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>가족나무 – 이용약관</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f5f5f7;
+      color: #1d1d1f;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1b4332, #40916c);
+      color: white;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+
+    header .icon { font-size: 56px; margin-bottom: 12px; }
+    header h1 { font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+    header p { font-size: 14px; opacity: 0.85; }
+
+    .lang-toggle {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin: 28px 0 0;
+    }
+
+    .lang-toggle button {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.5);
+      color: white;
+      padding: 6px 18px;
+      border-radius: 20px;
+      font-size: 13px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+
+    .lang-toggle button.active,
+    .lang-toggle button:hover {
+      background: rgba(255,255,255,0.4);
+    }
+
+    main {
+      max-width: 760px;
+      margin: 36px auto;
+      padding: 0 20px 60px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 18px;
+      padding: 32px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+    }
+
+    .card h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1b4332;
+      margin-bottom: 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid #d8f3dc;
+    }
+
+    .card p, .card li {
+      font-size: 15px;
+      color: #3a3a3c;
+      margin-bottom: 10px;
+    }
+
+    .card ul { padding-left: 20px; }
+    .card li { margin-bottom: 6px; }
+
+    .highlight {
+      background: #d8f3dc;
+      border-left: 4px solid #1b4332;
+      padding: 14px 18px;
+      border-radius: 0 10px 10px 0;
+      margin: 14px 0;
+      font-size: 15px;
+      color: #1b4332;
+      font-weight: 500;
+    }
+
+    .date-badge {
+      display: inline-block;
+      background: #d8f3dc;
+      color: #1b4332;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px;
+      font-size: 13px;
+      color: #6e6e73;
+    }
+
+    .lang-section { display: none; }
+    .lang-section.active { display: block; }
+
+    a { color: #40916c; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="icon">🌳</div>
+  <h1>가족나무</h1>
+  <p>Korean Family Tree &amp; Hoching</p>
+  <div class="lang-toggle">
+    <button class="active" onclick="setLang('ko')">한국어</button>
+    <button onclick="setLang('en')">English</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ────────── 한국어 ────────── -->
+  <div id="ko" class="lang-section active">
+
+    <div class="date-badge">시행일: 2026년 1월 1일</div>
+
+    <div class="card">
+      <h2>📋 개요</h2>
+      <div class="highlight">
+        가족나무 앱을 다운로드하거나 사용함으로써 본 이용약관에 동의하는 것으로 간주됩니다.
+      </div>
+      <p>본 약관은 Irradiated Solution(이하 "당사")이 제공하는 iOS 앱 <strong>가족나무</strong> 이용에 관한 조건을 규정합니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>✅ 서비스 이용</h2>
+      <ul>
+        <li>가족나무는 개인 및 가족의 가계도 관리를 위한 앱입니다.</li>
+        <li>만 13세 이상 사용자만 이용할 수 있습니다.</li>
+        <li>앱은 개인적, 비상업적 목적으로만 사용할 수 있습니다.</li>
+        <li>불법적이거나 타인의 권리를 침해하는 방식으로 사용할 수 없습니다.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>💳 결제 및 환불</h2>
+      <ul>
+        <li>가족나무 프리미엄은 <strong>일회성 구매(One-time purchase)</strong>입니다.</li>
+        <li>결제는 Apple App Store를 통해 처리됩니다.</li>
+        <li>구매 후 앱을 삭제해도 구매 내역은 유지되며, "구매 복원" 기능으로 복원할 수 있습니다.</li>
+        <li>환불은 Apple의 환불 정책에 따릅니다. 당사는 환불을 직접 처리하지 않습니다.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🔒 데이터 및 책임</h2>
+      <ul>
+        <li>입력한 가족 정보는 사용자 본인의 책임하에 관리됩니다.</li>
+        <li>기기 분실, 앱 삭제 등으로 인한 데이터 손실에 대해 당사는 책임을 지지 않습니다.</li>
+        <li>iCloud 백업을 통해 데이터를 보호하시길 권장합니다.</li>
+        <li>호칭 계산 결과는 일반적인 한국 전통 호칭 체계를 기반으로 하며, 지역, 가문에 따라 다를 수 있습니다.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🛡️ 지식재산권</h2>
+      <ul>
+        <li>앱의 디자인, 코드, 아이콘, 호칭 계산 로직 등 모든 콘텐츠의 저작권은 당사에 있습니다.</li>
+        <li>앱을 역공학, 복제, 배포하는 행위는 금지됩니다.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>⚠️ 서비스 변경 및 중단</h2>
+      <ul>
+        <li>당사는 사전 고지 없이 앱의 기능을 변경하거나 서비스를 중단할 수 있습니다.</li>
+        <li>앱 업데이트로 인해 일부 기능이 변경될 수 있습니다.</li>
+        <li>iOS 업데이트 등 외부 요인으로 인한 앱 오작동에 대해 당사는 책임을 지지 않습니다.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📜 약관 변경</h2>
+      <p>본 약관은 필요에 따라 변경될 수 있습니다. 변경 시 앱 업데이트 또는 이 페이지를 통해 공지합니다. 변경 후 계속 사용하면 변경된 약관에 동의한 것으로 간주됩니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>⚖️ 준거법</h2>
+      <p>본 약관은 <strong>호주 빅토리아주 법률</strong>에 따라 해석되고 적용됩니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>📬 문의</h2>
+      <p><strong>이메일:</strong> <a href="mailto:irradiatedsolution@gmail.com">irradiatedsolution@gmail.com</a></p>
+      <p><strong>개발사:</strong> Irradiated Solution (ABN 84 517 752 915)</p>
+      <p><strong>주소:</strong> Victoria, Australia</p>
+    </div>
+
+  </div>
+
+  <!-- ────────── English ────────── -->
+  <div id="en" class="lang-section">
+
+    <div class="date-badge">Effective Date: January 1, 2026</div>
+
+    <div class="card">
+      <h2>📋 Overview</h2>
+      <div class="highlight">
+        By downloading or using 가족나무, you agree to these Terms of Use.
+      </div>
+      <p>These Terms govern your use of the iOS app <strong>가족나무 (Korean Family Tree)</strong>, developed by Irradiated Solution ("we", "us").</p>
+    </div>
+
+    <div class="card">
+      <h2>✅ Use of the App</h2>
+      <ul>
+        <li>가족나무 is designed for personal family tree management.</li>
+        <li>You must be at least 13 years old to use this app.</li>
+        <li>The app may only be used for personal, non-commercial purposes.</li>
+        <li>You may not use the app in any unlawful manner or in a way that infringes others' rights.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>💳 Purchases &amp; Refunds</h2>
+      <ul>
+        <li>가족나무 Premium is a <strong>one-time purchase</strong>.</li>
+        <li>Purchases are processed by Apple App Store.</li>
+        <li>Your purchase is tied to your Apple ID and can be restored via "Restore Purchases".</li>
+        <li>Refunds are subject to Apple's refund policy. We do not process refunds directly.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🔒 Data &amp; Liability</h2>
+      <ul>
+        <li>You are responsible for the family information you enter into the app.</li>
+        <li>We are not liable for data loss due to device loss, app deletion, or other causes.</li>
+        <li>We recommend enabling iCloud Backup to protect your data.</li>
+        <li>Korean honorific (hoching) calculations are based on traditional Korean kinship systems and may vary by region or family tradition.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🛡️ Intellectual Property</h2>
+      <ul>
+        <li>All content including design, code, icons, and hoching logic is owned by Irradiated Solution.</li>
+        <li>Reverse engineering, copying, or redistribution of the app is prohibited.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>⚠️ Changes &amp; Availability</h2>
+      <ul>
+        <li>We may modify or discontinue the app at any time without prior notice.</li>
+        <li>Features may change with app updates.</li>
+        <li>We are not liable for malfunctions caused by iOS updates or other external factors.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📜 Changes to Terms</h2>
+      <p>We may update these Terms at any time. Changes will be announced via app updates or this page. Continued use of the app after changes constitutes acceptance of the updated Terms.</p>
+    </div>
+
+    <div class="card">
+      <h2>⚖️ Governing Law</h2>
+      <p>These Terms are governed by the laws of <strong>Victoria, Australia</strong>.</p>
+    </div>
+
+    <div class="card">
+      <h2>📬 Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:irradiatedsolution@gmail.com">irradiatedsolution@gmail.com</a></p>
+      <p><strong>Developer:</strong> Irradiated Solution (ABN 84 517 752 915)</p>
+      <p><strong>Location:</strong> Victoria, Australia</p>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  © 2026 Irradiated Solution · 가족나무
+</footer>
+
+<script>
+  function setLang(lang) {
+    document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-toggle button').forEach(btn => btn.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    event.target.classList.add('active');
+  }
+</script>
+
+</body>
+</html>

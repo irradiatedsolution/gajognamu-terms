@@ -1,2 +1,0 @@
-# gajognamu-terms
-Gajognamu Terms
